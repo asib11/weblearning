@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>information</title>
+</head>
+
+<body>
+    <a href="index.html">home</a>
+    <form action="https://www.google.com/search">
+        <label>
+            <input type="text" name="q" placeholder="google search" >
+        </label>
+        <button>google search</button>
+    </form>
+    <form action="https://www.youtube.com/results">
+        <label>
+            <input type="text" name="search_query" placeholder="youtube search">
+        </label>
+    </form>
+    
+    <h1>Fill the form for Contect with us</h1>
+   
+    <form action="information">
+        <p>
+            <label for="username">username: </label>
+            <input type="text" id="username" placeholder="input username" name="username">
+        </p>
+        <p>
+            <label>
+                password:
+                <input type="password" placeholder="enter password" name="password">
+            </label>
+        </p>
+        <p>
+            <label for="">
+                color: 
+                <input type="color" name="color">
+            </label>
+        </p>
+        <p>
+            <label for="">
+                select number: 
+                <input type="number" placeholder="enter number" name="number">
+            </label>
+        </p>
+
+        <hr>
+        <label for="">
+            gender: 
+            <input type="radio" id="male" name="gender"value="male">
+            <label for="">male
+            </label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="">female
+                <br>
+            </label>
+        </label>
+        <label >
+            which wanna u buy
+            <select name="buy" id="buy">
+                <option value="choose">plase choose anything</option>
+                <option value="shirt">shirt</option>
+                <option value="pant">pant</option>
+                <option value="jacket">jacket</option>
+                <option value="glass">glass</option>
+                <option value="watch">watch</option>
+            </select> <br>
+        </label>
+        <label>
+            <input type="checkbox" id=checkbox name="checkbox">
+            i agree with you <br>
+        </label>
+        <label>volume
+            <input type="range" name="range" id="range" min="0" max="50" value="0">
+        </label><br>
+        <label>
+            tell me about your feelings <br>
+            <textarea name="textarea" id="textarea" cols="40" rows="10" placeholder="type here"></textarea>
+        </label><br>
+        <button>submit</button>
+        <input type="submit" value="click me">
+    </form>
+</body>
+
+</html>

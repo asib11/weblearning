@@ -1,0 +1,71 @@
+h1{
+    color: #00509d;
+    text-decoration: #1b4965 underline wavy ;
+    text-align: center;
+    background-color: #62b6cb;
+    letter-spacing: 20px;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 70px; 
+    text-transform: uppercase;
+    font-family: monospace,Arial, Helvetica, sans-serif;
+}
+body{
+    padding: 10px 20px;
+    background-color: #bee9e8;
+    border: 15px double rosybrown;
+    margin: 10px;
+}
+
+main p{
+    text-align: justify;
+    background-color: cadetblue;
+    border: 5px groove sandybrown;
+    padding: 5px;
+    
+}
+footer{
+    background-color: #62b6cb;
+    text-align: right;
+    padding: 5px 10px;
+    border:2px solid #1b4965;
+}
+footer a{
+    text-decoration: none;
+    color: red;
+}
+.copy{
+    text-align: center;
+}
+footer span{
+    font-family:monospace;
+    color: rebeccapurple;
+}
+
+#search{
+    background-color: skyblue;
+}
+input[type="text"]{
+    color: springgreen;
+}
+
+/* a[href="about.html"]{
+    color: tomato;
+}
+a[href*=table]{
+    color: violet;
+    font-weight: bolder;
+    font-family: 'Arial Narrow Bold', sans-serif;
+} */
+.search{
+    display: inline;
+    margin-left: 56%;
+}
+.pages{
+    margin-right: 5px;
+    border: 3px solid rgb(67, 45, 29);
+    text-decoration: none;
+    background-color: seashell;
+    padding-left: 2px;
+    padding-right: 2px;
+}

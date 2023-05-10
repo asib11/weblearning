@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <a href="index.html">home</a><hr>
+    <form action="signIn">
+        <h1>Fill up for Sign In</h1>
+        <div>
+            <label for="first">First Name</label>
+            <input type="text" id="first" name="firstName" placeholder="First name" required>
+
+            <label for="last">Last Name</label>
+            <input type="text" id="last" name="lastName" placeholder="last name" required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="Email" id="email" name="email" placeholder="example@email.com" required>
+            <label for="mobile">Mobile number</label>
+            <select name="mobile" id="mobile">
+                <option value="+880">+880</option>
+            </select>
+            <input type="text" name="mobile" id="mobile" placeholder="mobile number" maxlength="10" required> 
+        </div>
+        <div>
+            <label for="birthday">Date of Birth</label>
+            <input type="date" name="birthday" id="birthday" required><br>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label><br>
+            <label for="age">Age</label>
+            <select name="age" id="age" required>
+                <option value="">--select one--</option>
+                <option value="18+">18+</option>
+                <option value="20-30">20-30</option>
+                <option value="31-50">31-50</option>
+                <option value="50+">50+</option>
+            </select>
+        </div>
+        <div>
+            <label for="password">Create a password</label><br>
+            <input type="password" id="password" name="password" placeholder="set a password" required>
+            <input type="password" id="confirm" name="confirm" placeholder="confirm the password" required><br>
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox"> do u agree with all conditions</label>
+        </div>
+        <button>submit</button>
+    </form>
+</body>
+</html>

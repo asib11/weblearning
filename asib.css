@@ -9,6 +9,7 @@ h1{
     font-size: 70px; 
     text-transform: uppercase;
     font-family: monospace,Arial, Helvetica, sans-serif;
+    border:5px solid whitesmoke;
 }
 body{
     padding: 10px 20px;
@@ -64,18 +65,22 @@ a[href*=table]{
     padding-right: 2px;
     
 }
-.search{
+/* .pages{
     width: 50%;
-}
+} */
 .pages a{
     text-decoration: none;
     border:2px solid #00509d;
     padding-left: 5px;
     padding-right: 5px;
     background-color: antiquewhite;
-    font-size:larger;
+    /* font-size:larger; */
+    font-weight: 700;
+    font-family: 'Pacifico', cursive;
+    text-transform: uppercase;
 }
 #asib{
    
-    margin-left: 30%;
+    margin-left: 40%;
+    
 }

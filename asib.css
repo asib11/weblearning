@@ -57,17 +57,25 @@ a[href*=table]{
 .pages{
     display: flex;
     margin-right: 5px;
-    border: 3px solid rgb(67, 45, 29);
+    /* border: 5px solid rgb(67, 45, 29); */
     text-decoration: none;
-    background-color: seashell;
+    /* background-color: #1b4965; */
     padding-left: 2px;
     padding-right: 2px;
     
 }
 .search{
-    align-items: right;
     width: 50%;
 }
 .pages a{
     text-decoration: none;
+    border:2px solid #00509d;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: antiquewhite;
+    font-size:larger;
+}
+#asib{
+   
+    margin-left: 30%;
 }

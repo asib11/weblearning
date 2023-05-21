@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transformar</title>
+    <style>
+        .cointainer, .inner{
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+        }
+
+        .inner{
+            background-color: brown;
+            transition: transform 5s;
+            
+        }
+        .inner:hover{
+            transform: scale(.75) rotate(45deg) translateX(200px) translateZ(200px);
+            
+        }
+        .cointainer{
+            background-color: aqua;
+            transition: ease 5s, width 5s, height 5s ;
+        }
+        .cointainer:hover{
+            width: 400px;
+            height: 400px;
+            
+        }
+    </style>
+    
+</head>
+<body>
+    <nav><a href="index.html">home</a></nav>
+    
+    <div class="cointainer">
+        <div class="inner">box-1</div>
+    </div>
+    <div class="cointainer">
+        <div class="inner">box-2</div>
+    </div>
+    <div class="cointainer">
+        <div class="inner">box-3</div>
+    </div>
+</body>
+</html>
